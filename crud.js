@@ -6,6 +6,7 @@ function showKaryawan (){
     listKaryawan.innerHTML = "";
 
     for(let i= 0; i< karyawan.length; i++){
+        
         var btnEdit = "<a href='#' onclick='editKaryawan("+i+")'>Edit</a>";
         var btnHapus = "<a href='#' onclick='hapusData("+i+")'>hapus</a>";
 
